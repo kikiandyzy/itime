@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_menu_timekeeping"
+            android:icon="@drawable/nav_menu_timekeeping"
+            android:title="计时"/>
+        <item
+            android:id="@+id/nav_menu_label"
+            android:icon="@drawable/nav_menu_label"
+            android:title="标签" />
+        <item
+            android:id="@+id/nav_menu_extension"
+            android:icon="@drawable/nav_menu_extension"
+            android:title="小部件"/>
+        <item
+            android:id="@+id/nav_menu_color"
+            android:icon="@drawable/nav_menu_color"
+            android:title="主题色"/>
+        <item
+            android:id="@+id/nav_menu_advanced"
+            android:icon="@drawable/nav_menu_star"
+            android:title="高级版"/>
+    </group>
+
+    <!--通过不同分组添加分隔符-->
+
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_setting"
+            android:icon="@drawable/nav_menu_settings"
+            android:title="设置"/>
+        <item
+            android:id="@+id/nav_menu_about"
+            android:icon="@drawable/nav_menu_about"
+            android:title="关于"/>
+        <item
+            android:id="@+id/nav_menu_help"
+            android:icon="@drawable/nav_menu_help_feedback"
+            android:title="帮助和反馈"/>
+
+    </group>
+
+
+</menu>
